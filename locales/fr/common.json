@@ -1,0 +1,16 @@
+{
+  "appName": "LucyAI",
+  "welcome": "Bienvenue",
+  "hello": "Bonjour",
+  "loading": "Chargement...",
+  "error": "Erreur",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "back": "Retour",
+  "next": "Suivant",
+  "done": "Terminé",
+  "close": "Fermer"
+}

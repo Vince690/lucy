@@ -1,0 +1,110 @@
+{
+  "title": "Settings",
+  "account": "My account",
+  "myAccount": "My account",
+  "preferences": "Preferences",
+  "support": "Support",
+  "data": "Data",
+  "profile": {
+    "title": "Profile"
+  },
+  "logout": {
+    "title": "Sign Out",
+    "subtitle": "Sign out of your account",
+    "confirmTitle": "Sign Out",
+    "confirmMessage": "Are you sure you want to sign out?",
+    "confirm": "Sign Out"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Receive daily reminders",
+    "permissionDeniedTitle": "Notifications disabled",
+    "permissionDeniedMessage": "Notifications were denied. To enable them, go to Settings > Lucy.",
+    "openSettings": "Open settings"
+  },
+  "language": {
+    "title": "Language",
+    "subtitle": "English",
+    "system": "System",
+    "french": "Français",
+    "english": "English",
+    "comingSoon": "Soon available in multiple languages",
+    "systemWithCurrent": "System ({{language}})"
+  },
+  "help": {
+    "title": "Help & FAQ",
+    "subtitle": "Get help quickly",
+    "message": "For any questions, reach us at help.lucyai@proton.me",
+    "copyEmail": "Copy email address",
+    "emailCopied": "Address copied!",
+    "close": "Close"
+  },
+  "rate": {
+    "title": "Rate the app",
+    "subtitle": "Share your feedback on the App Store",
+    "message": "Thank you for supporting us! You will be redirected to the App Store.",
+    "confirm": "Rate Lucy",
+    "errorMessage": "Could not open the App Store right now."
+  },
+  "legalGroup": {
+    "title": "Legal",
+    "subtitle": "Privacy, terms & legal notice"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "subtitle": "Privacy policy"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "subtitle": "Terms and conditions of use"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "subtitle": "Legal information about the publisher"
+  },
+  "lucyMemoryReset": {
+    "title": "Reset Lucy's memory",
+    "subtitle": "Clear Lucy's memories, conversation thread, and structured knowledge",
+    "confirmTitle": "Erase Lucy's memory?",
+    "confirmMessage": "⚠️ This action is immediate and cannot be undone.\n\nLucy will permanently forget everything she has learned about you: your preferences, personality, relationships, life events, and your entire conversation history. She will start completely fresh with no memory of you.\n\nThis data cannot be recovered once deleted.\n\nOnly your mood tracker history will be kept.",
+    "confirm": "Yes, erase everything",
+    "successTitle": "Memory reset",
+    "successMessage": "The conversation on this screen has been cleared. You can start fresh.",
+    "errorTitle": "Reset failed",
+    "errorMessage": "Could not reach the server or something went wrong. Try again later."
+  },
+  "deleteAccount": {
+    "title": "Delete my account",
+    "subtitle": "Permanently delete account and all data",
+    "confirmTitle": "Delete your account?",
+    "confirmMessage": "⚠️ Warning, this action is permanent and irreversible.\n\nYour account, all your conversations with Lucy, your complete mood history, and every piece of data associated with you will be immediately and permanently deleted from our servers.\n\nNeither you nor our team will be able to recover anything. There is no going back.\n\nAre you sure you want to delete your account?",
+    "confirm": "Yes, delete permanently",
+    "subscriptionNotice": "If you have a subscription, it is sold and billed by {{store}}: deleting your account does not cancel it, and we cannot cancel it for you. Cancel it from your {{store}} account first, otherwise billing continues.",
+    "manageSubscription": "Manage my subscription",
+    "errorTitle": "Deletion failed",
+    "errorMessage": "Could not delete the account at this time. Please try again later."
+  },
+  "editProfile": {
+    "title": "Edit profile",
+    "firstName": "First name",
+    "firstNamePlaceholder": "Your first name",
+    "dateOfBirth": "Date of birth",
+    "gender": "Gender",
+    "timezone": "Timezone",
+    "timezoneDetect": "Re-detect",
+    "save": "Save",
+    "errorTitle": "Error",
+    "errorMessage": "Could not save changes. Please try again.",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "prefer_not_to_say": "Prefer not to say"
+    },
+    "timezoneDetected": "Detected"
+  },
+  "appInfo": {
+    "version": "Version 1.0.0",
+    "credits": "Made for real humans, by a real human."
+  }
+}

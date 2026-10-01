@@ -1,0 +1,110 @@
+{
+  "title": "Paramètres",
+  "account": "Mon compte",
+  "myAccount": "Mon compte",
+  "preferences": "Préférences",
+  "support": "Support",
+  "data": "Données",
+  "profile": {
+    "title": "Profil"
+  },
+  "logout": {
+    "title": "Déconnexion",
+    "subtitle": "Se déconnecter de votre compte",
+    "confirmTitle": "Déconnexion",
+    "confirmMessage": "Êtes-vous sûr de vouloir vous déconnecter?",
+    "confirm": "Se déconnecter"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Recevez des rappels quotidiens",
+    "permissionDeniedTitle": "Notifications désactivées",
+    "permissionDeniedMessage": "Les notifications ont été refusées. Pour les activer, va dans Réglages > Lucy.",
+    "openSettings": "Ouvrir les réglages"
+  },
+  "language": {
+    "title": "Langue",
+    "subtitle": "Français",
+    "system": "Système",
+    "french": "Français",
+    "english": "English",
+    "comingSoon": "Bientôt disponible en plusieurs langues",
+    "systemWithCurrent": "Système ({{language}})"
+  },
+  "help": {
+    "title": "Aide & FAQ",
+    "subtitle": "Obtenez de l'aide rapidement",
+    "message": "Pour toute question, écrivez-nous à help.lucyai@proton.me",
+    "copyEmail": "Copier l'adresse email",
+    "emailCopied": "Adresse copiée !",
+    "close": "Fermer"
+  },
+  "rate": {
+    "title": "Évaluer l'application",
+    "subtitle": "Partagez votre avis sur l'App Store",
+    "message": "Merci de nous soutenir ! Vous serez redirigé vers l'App Store.",
+    "confirm": "Noter Lucy",
+    "errorMessage": "Impossible d'ouvrir l'App Store pour le moment."
+  },
+  "legalGroup": {
+    "title": "Légal",
+    "subtitle": "Confidentialité, CGU, mentions légales"
+  },
+  "privacy": {
+    "title": "Confidentialité",
+    "subtitle": "Politique de confidentialité"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "subtitle": "Conditions générales d'utilisation (CGU)"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "subtitle": "Informations légales sur l'éditeur"
+  },
+  "lucyMemoryReset": {
+    "title": "Réinitialiser la mémoire de Lucy",
+    "subtitle": "Efface souvenirs, fil de conversation et mémoire structurée de Lucy",
+    "confirmTitle": "Effacer la mémoire de Lucy ?",
+    "confirmMessage": "⚠️ Cette action est immédiate et irréversible.\n\nLucy oubliera absolument tout ce qu’elle a appris sur toi : tes préférences, ta personnalité, tes relations, tes événements de vie et l’intégralité de votre historique de conversation. Elle redeviendra une inconnue.\n\nAucune récupération n’est possible une fois supprimé.\n\nSeul ton suivi d’humeur sera préservé.",
+    "confirm": "Oui, tout effacer",
+    "successTitle": "Mémoire réinitialisée",
+    "successMessage": "La conversation à l’écran a été remise à zéro. Tu peux repartir sur un nouveau chat.",
+    "errorTitle": "Échec du reset",
+    "errorMessage": "Impossible de joindre le serveur ou une erreur s’est produite. Réessaie plus tard."
+  },
+  "deleteAccount": {
+    "title": "Supprimer mon compte",
+    "subtitle": "Supprime définitivement le compte et toutes les données",
+    "confirmTitle": "Supprimer ton compte ?",
+    "confirmMessage": "⚠️ Attention, cette action est permanente et irréversible.\n\nTon compte, toutes tes conversations avec Lucy, ton historique d’humeur complet et chaque donnée te concernant seront supprimés immédiatement et définitivement de nos serveurs.\n\nNi toi, ni notre équipe ne pourrons récupérer quoi que ce soit. Il n’y a aucun retour en arrière possible.\n\nEs-tu bien sûr de vouloir supprimer ton compte ?",
+    "confirm": "Oui, supprimer définitivement",
+    "subscriptionNotice": "Si tu as un abonnement, il est vendu et facturé par {{store}} : supprimer ton compte ne le résilie pas, et nous ne pouvons pas le faire à ta place. Résilie-le d'abord depuis ton compte {{store}}, sinon la facturation continue.",
+    "manageSubscription": "Gérer mon abonnement",
+    "errorTitle": "Échec de la suppression",
+    "errorMessage": "Impossible de supprimer le compte pour le moment. Réessaie plus tard."
+  },
+  "editProfile": {
+    "title": "Modifier le profil",
+    "firstName": "Prénom",
+    "firstNamePlaceholder": "Ton prénom",
+    "dateOfBirth": "Date de naissance",
+    "gender": "Genre",
+    "timezone": "Fuseau horaire",
+    "timezoneDetect": "Détecter à nouveau",
+    "save": "Enregistrer",
+    "errorTitle": "Erreur",
+    "errorMessage": "Impossible d'enregistrer les modifications. Réessaie.",
+    "genderOptions": {
+      "male": "Homme",
+      "female": "Femme",
+      "other": "Autre",
+      "prefer_not_to_say": "Préfère ne pas dire"
+    },
+    "timezoneDetected": "Détecté"
+  },
+  "appInfo": {
+    "version": "Version 1.0.0",
+    "credits": "Made for real humans, by a real human."
+  }
+}

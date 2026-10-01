@@ -1,0 +1,60 @@
+{
+  "title": "Lucy",
+  "placeholder": "Tapez votre message...",
+  "send": "Envoyer",
+  "typing": "En train d'écrire...",
+  "welcomeSeq1": "hey {{name}} ! 🌼",
+  "welcomeSeq1NoName": "hey ! 🌼",
+  "welcomeSeq2": "bon. premier message. un peu particulier, j'avoue.",
+  "welcomeSeq3": "mais j'ai le sentiment qu'on va bien s'entendre.",
+  "welcomeSeq4": "bref, tu veux parler de quoi ?",
+  "errorNetwork": "Impossible de joindre Lucy. Vérifie ta connexion et réessaie.",
+  "errorSession": "Ta session a expiré. Reconnecte-toi pour continuer.",
+  "errorRateLimit": "Doucement ! Attends quelques secondes avant de renvoyer un message.",
+  "errorServer": "Lucy est momentanément indisponible. Réessaie dans quelques instants.",
+  "errorGeneric": "Quelque chose n'a pas fonctionné. Réessaie.",
+  "retry": "Réessayer",
+  "loadMore": "Voir les messages précédents",
+  "dateToday": "Aujourd'hui",
+  "dateYesterday": "Hier",
+  "copy": "Copier",
+  "copied": "Copié",
+  "moodCheckIn": {
+    "greetings": {
+      "morning": [
+        "te revoilà ☀️",
+        "salut toi 🌼",
+        "hey 👋"
+      ],
+      "afternoon": [
+        "te revoilà 👋",
+        "coucou 🌤️",
+        "hey, ça avance la journée ?"
+      ],
+      "evening": [
+        "te revoilà 🌙",
+        "coucou 🌙",
+        "hey, la journée se termine ?"
+      ]
+    },
+    "questions": [
+      "au fait, comment tu te sens aujourd'hui ?",
+      "dis-moi, tu te sens comment aujourd'hui ?",
+      "et toi, ça va comment aujourd'hui ?"
+    ]
+  },
+  "moodSent": {
+    "1": "aujourd'hui c'est dur 😔",
+    "2": "aujourd'hui je me sens pas top 😕",
+    "3": "aujourd'hui ça va 😐",
+    "4": "aujourd'hui je me sens bien 😊",
+    "5": "aujourd'hui je suis au top 🤩"
+  },
+  "firstCards": {
+    "classic": "raconte-moi un truc sur toi d’abord",
+    "wacky": "si t’étais un légume, tu serais quoi ?",
+    "goal": "je veux {{goal}}. tu t’y prendrais comment toi ?",
+    "goalFallback": "j’ai répondu à 13 questions. dis-moi ce que t’as retenu."
+  },
+  "errorFreeExhausted": "Tes échanges offerts sont épuisés. Un abonnement est nécessaire pour continuer."
+}

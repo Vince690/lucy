@@ -1,0 +1,145 @@
+{
+  "title": "Your mood",
+  "selector": {
+    "question": "How are you feeling today?",
+    "saveButton": "Save my mood",
+    "saved": "Mood saved successfully!",
+    "modified": "You've already modified your mood today",
+    "cannotModify": "You can only modify your mood once per day"
+  },
+  "levels": {
+    "1": "Rough",
+    "2": "Not great",
+    "3": "So-so",
+    "4": "Good",
+    "5": "On top"
+  },
+  "chart": {
+    "title": "Your history",
+    "empty": {
+      "title": "No data yet",
+      "message": "Start recording your daily mood to see your progress here"
+    },
+    "timeRange": {
+      "week": "Week",
+      "month": "Month",
+      "threeMonths": "3 months"
+    },
+    "today": "Today",
+    "days": "Days"
+  },
+  "streak": {
+    "title": "Day streak",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "subtitle": "Keep it up 🔥",
+    "subtitleZero": "Start today!",
+    "subtitleOne": "Nice one, see you tomorrow!"
+  },
+  "score": {
+    "title": "Wellbeing Score",
+    "subtitle": "Last 7 days",
+    "noData": "No data yet"
+  },
+  "calendar": {
+    "title": "Your month at a glance",
+    "days": [
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S",
+      "S"
+    ],
+    "entriesCount_one": "{{count}} mood logged",
+    "entriesCount_other": "{{count}} moods logged",
+    "overFiveWeeks": "over 5 weeks"
+  },
+  "insights": {
+    "title": "Your insights",
+    "bestDayPre": "You're at your best on",
+    "bestDayPost": "",
+    "aboveAveragePre": "This week,",
+    "aboveAverageHigh": "above",
+    "aboveAveragePost": "your average",
+    "belowAveragePre": "This week,",
+    "belowAverageHigh": "below",
+    "belowAveragePost": "your average",
+    "bestStreakPre": "Your record:",
+    "bestStreakPost_one": "day in a row",
+    "bestStreakPost_other": "days in a row",
+    "bestStreakUnit_one": "day",
+    "bestStreakUnit_other": "days",
+    "bestStreakSuffix": "in a row. Bravo!",
+    "improvingPre": "Feeling",
+    "improvingHigh": "better",
+    "improvingPost": "than before",
+    "decliningPre": "These days,",
+    "decliningHigh": "a bit harder",
+    "decliningPost": "Lucy is here for you",
+    "lockedPrefix": "Unlock in",
+    "lockedDays_one": "{{count}} day",
+    "lockedDays_other": "{{count}} days",
+    "daysOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  },
+  "badges": {
+    "continue": "Keep going!",
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "unlockedOn": "{{date}}",
+    "first": {
+      "name": "First step",
+      "desc": "You logged your mood for the first time. Welcome!"
+    },
+    "mood5": {
+      "name": "On top",
+      "desc": "You had an amazing day. Soak it all in!"
+    },
+    "streak3": {
+      "name": "On fire",
+      "desc": "3 days in a row, consistency is your superpower!"
+    },
+    "count10": {
+      "name": "Regular",
+      "desc": "10 moods logged, you're building a great habit!"
+    },
+    "streak7": {
+      "name": "Perfect week",
+      "desc": "7 days straight, a full week. Bravo!"
+    },
+    "count30": {
+      "name": "Committed",
+      "desc": "30 moods logged, Lucy is so proud of you!"
+    },
+    "streak30": {
+      "name": "Legendary",
+      "desc": "30 days in a row, you're a true legend!"
+    }
+  },
+  "loading": "Loading your moods...",
+  "errors": {
+    "loadFailed": "Failed to load your mood history. Please try again.",
+    "saveFailed": "Failed to save your mood. Please try again."
+  }
+}

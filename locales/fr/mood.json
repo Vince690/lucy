@@ -1,0 +1,95 @@
+{
+  "title": "Ton humeur",
+  "selector": {
+    "question": "Comment te sens-tu aujourd'hui ?",
+    "saveButton": "Enregistrer mon humeur",
+    "saved": "Humeur enregistrée avec succès !",
+    "modified": "Tu as déjà modifié ton humeur aujourd'hui",
+    "cannotModify": "Tu ne peux modifier ton humeur qu'une fois par jour"
+  },
+  "levels": {
+    "1": "Dur",
+    "2": "Pas top",
+    "3": "Ça va",
+    "4": "Bien",
+    "5": "Au top"
+  },
+  "chart": {
+    "title": "Ton historique",
+    "empty": {
+      "title": "Aucune donnée pour le moment",
+      "message": "Commence à enregistrer ton humeur quotidiennement pour voir ton évolution ici"
+    },
+    "timeRange": {
+      "week": "Semaine",
+      "month": "Mois",
+      "threeMonths": "3 mois"
+    },
+    "today": "Aujourd'hui",
+    "days": "Jours"
+  },
+  "streak": {
+    "title": "Jours de suite",
+    "days_one": "{{count}} jour",
+    "days_other": "{{count}} jours",
+    "subtitle": "Continue comme ça 🔥",
+    "subtitleZero": "Lance-toi aujourd'hui !",
+    "subtitleOne": "Bien joué, à demain !"
+  },
+  "score": {
+    "title": "Score Bien-être",
+    "subtitle": "7 derniers jours",
+    "noData": "Pas encore de données"
+  },
+  "calendar": {
+    "title": "Ton mois en un coup d'œil",
+    "days": ["L", "M", "M", "J", "V", "S", "D"],
+    "entriesCount_one": "{{count}} humeur enregistrée",
+    "entriesCount_other": "{{count}} humeurs enregistrées",
+    "overFiveWeeks": "sur 5 semaines"
+  },
+  "insights": {
+    "title": "Tes insights",
+    "bestDayPre": "Tu es au mieux le",
+    "bestDayPost": "",
+    "aboveAveragePre": "Cette semaine,",
+    "aboveAverageHigh": "au-dessus",
+    "aboveAveragePost": "de ta moyenne",
+    "belowAveragePre": "Cette semaine,",
+    "belowAverageHigh": "en dessous",
+    "belowAveragePost": "de ta moyenne",
+    "bestStreakPre": "Ton record :",
+    "bestStreakPost_one": "jour de suite",
+    "bestStreakPost_other": "jours de suite",
+    "bestStreakUnit_one": "jour",
+    "bestStreakUnit_other": "jours",
+    "bestStreakSuffix": "de suite. Bravo !",
+    "improvingPre": "Tu vas",
+    "improvingHigh": "mieux",
+    "improvingPost": "qu'avant",
+    "decliningPre": "Ces jours-ci,",
+    "decliningHigh": "un peu difficile",
+    "decliningPost": "Lucy est là pour toi",
+    "lockedPrefix": "Se débloquent dans",
+    "lockedDays_one": "{{count}} jour",
+    "lockedDays_other": "{{count}} jours",
+    "daysOfWeek": ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+  },
+  "badges": {
+    "continue": "Continue !",
+    "months": ["jan.", "fév.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."],
+    "unlockedOn": "{{date}}",
+    "first":    { "name": "Premier pas",      "desc": "Tu as noté ton humeur pour la première fois. Bienvenue !" },
+    "mood5":    { "name": "Au sommet",         "desc": "Tu as vécu une journée au maximum. Savoure-la !" },
+    "streak3":  { "name": "En feu",            "desc": "3 jours de suite, la régularité c'est ta force !" },
+    "count10":  { "name": "Habitué",         "desc": "10 humeurs notées, tu construis une belle habitude !" },
+    "streak7":  { "name": "Semaine parfaite",  "desc": "7 jours d'affilée, une semaine entière, bravo !" },
+    "count30":  { "name": "Régulier",      "desc": "30 humeurs notées, Lucy est fière de toi !" },
+    "streak30": { "name": "Légendaire",        "desc": "30 jours de suite, tu es une vraie légende !" }
+  },
+  "loading": "Chargement de tes humeurs...",
+  "errors": {
+    "loadFailed": "Impossible de charger ton historique d'humeurs. Réessaye.",
+    "saveFailed": "Impossible d'enregistrer ton humeur. Réessaye."
+  }
+}

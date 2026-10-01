@@ -1,0 +1,337 @@
+{
+  "step": "Step {{current}} of {{total}}",
+  "continue": "Continue",
+  "intro": {
+    "hook": "When someone really listens to you, without judging you… it feels wonderful.",
+    "hookAuthor": "Carl Rogers",
+    "signIn": "Sign in",
+    "promiseTitle": "What if you always had someone to talk to?",
+    "promise2Line1": "She listens,",
+    "promise2Line2": "remembers what matters to you,",
+    "promise2Line3": "and helps you see more clearly.",
+    "science": {
+      "title": "What the research says",
+      "fact1": "Talking to a caring AI helps you feel better.",
+      "fact2": "Feeling heard is the strongest predictor of a happy life.",
+      "fact3": "People open up more to an AI — the fear of being judged fades.",
+      "source1": "Dartmouth College",
+      "source2": "Harvard University",
+      "source3": "University of Southern California"
+    },
+    "promise2Line0": "Meet Lucy."
+  },
+  "skip": "Skip",
+  "complete": "Complete",
+  "completing": "Completing...",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "traits": {
+    "title": "What best describes you?",
+    "subtitle": "Pick the 3 traits that fit you best.",
+    "selectCount": "{{count}}/3",
+    "keys": {
+      "anxious": "Anxious",
+      "joyful": "Joyful",
+      "hypersensitive": "Hypersensitive",
+      "confident": "Confident",
+      "insecure": "Insecure",
+      "ambitious": "Ambitious",
+      "optimistic": "Optimistic",
+      "introverted": "Introverted",
+      "extroverted": "Extroverted",
+      "calm": "Calm"
+    }
+  },
+  "name": {
+    "title": "What should we call you?",
+    "firstName": "First Name",
+    "firstNamePlaceholder": "Your first name"
+  },
+  "dateOfBirth": {
+    "title": "How old are you?",
+    "gate": {
+      "title": "We'll meet a little later.",
+      "body": "Lucy is for ages 18 and up. Take care of yourself in the meantime.",
+      "edit": "Change my date of birth"
+    }
+  },
+  "gender": {
+    "title": "How do you identify?",
+    "options": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "prefer_not_to_say": "Prefer not to say"
+    }
+  },
+  "timezone": {
+    "title": "Confirm your timezone",
+    "subtitle": "This helps us send you timely reminders",
+    "detectedTimezone": "Detected timezone"
+  },
+  "notifications": {
+    "title": "Stay on track",
+    "subtitle": "Turn on notifications to keep up with your mood.",
+    "enableNotifications": "Enable notifications",
+    "enableNotificationsDesc": "A gentle reminder, never intrusive.",
+    "dailyReminder": "Daily reminder",
+    "dailyReminderDesc": "Get a daily reminder at a time you choose",
+    "weeklySummary": "Weekly summary",
+    "weeklySummaryDesc": "Receive a weekly summary of your mood"
+  },
+  "start": {
+    "title": "Ready?",
+    "cta": "Let's go"
+  },
+  "quiz": {
+    "mood": {
+      "title": "How have you been feeling lately?",
+      "options": {
+        "thriving": "Thriving",
+        "pretty_good": "Pretty good",
+        "mixed": "Mixed",
+        "not_great": "Not great",
+        "struggling": "Struggling"
+      }
+    },
+    "energy": {
+      "title": "And your energy level right now?",
+      "options": {
+        "bursting": "Bursting with energy",
+        "in_shape": "In good shape",
+        "average": "Average",
+        "bit_tired": "A bit tired",
+        "rock_bottom": "Running on empty"
+      }
+    },
+    "concerns": {
+      "title": "What's been on your mind the most lately?",
+      "hint": "You can pick several.",
+      "options": {
+        "stress": "My stress levels",
+        "sleep": "My sleep",
+        "future": "My future",
+        "relationships": "My relationships",
+        "loneliness": "My loneliness",
+        "self_confidence": "My self-confidence",
+        "work_studies": "My work or studies",
+        "health": "My health",
+        "finances": "My finances",
+        "nothing_special": "Nothing in particular"
+      }
+    },
+    "stress": {
+      "title": "In general, how much does stress affect you?",
+      "options": {
+        "enormously": "A great deal",
+        "quite_a_bit": "Quite a bit",
+        "okay": "It's okay",
+        "not_much": "Not much",
+        "not_at_all": "Not at all"
+      }
+    },
+    "talkTo": {
+      "title": "Who can you talk to when something's bothering you?",
+      "options": {
+        "almost_anyone": "Almost anyone",
+        "a_few_people": "A few people",
+        "my_partner": "My partner",
+        "my_family": "My family",
+        "an_ai": "An AI",
+        "hardly_anyone": "Hardly anyone",
+        "keep_to_myself": "I keep it to myself"
+      }
+    },
+    "openness": {
+      "title": "Is it easy for you to open up to someone?",
+      "options": {
+        "almost_too_easy": "Almost too easy",
+        "easy": "Easy",
+        "right_people": "With the right people",
+        "not_that_simple": "Not that simple",
+        "very_hard": "Very hard"
+      }
+    },
+    "goals": {
+      "title": "What would you like to do when talking with Lucy?",
+      "hint": "Choose as many as you like.",
+      "options": {
+        "manage_stress": "Manage my stress",
+        "sleep_better": "Sleep better",
+        "understand_emotions": "Understand my emotions",
+        "feel_less_alone": "Feel less alone",
+        "build_confidence": "Build my confidence",
+        "see_clearly": "See things more clearly",
+        "someone_to_talk": "Have someone to talk to",
+        "just_talk": "Just talk"
+      }
+    },
+    "pride": {
+      "title": "What are you most proud of about yourself?",
+      "hint": "You can pick several.",
+      "options": {
+        "my_journey": "My journey",
+        "my_family": "My family",
+        "work_studies": "My work or studies",
+        "kindness": "My kindness",
+        "creativity": "My creativity",
+        "independence": "My independence",
+        "overcoming_hardship": "Overcoming hard times",
+        "friendships": "My friendships",
+        "perseverance": "My perseverance",
+        "honesty": "My honesty",
+        "humor": "My sense of humor",
+        "curiosity": "My curiosity",
+        "caring_for_others": "Caring for others",
+        "personal_growth": "My personal growth",
+        "courage": "My courage"
+      }
+    },
+    "understood": {
+      "title": "What do you wish people understood better about you?",
+      "hint": "You can pick several.",
+      "options": {
+        "my_sensitivity": "My sensitivity",
+        "need_for_calm": "My need for calm",
+        "my_emotions": "My emotions",
+        "life_choices": "My life choices",
+        "need_for_independence": "My need for independence",
+        "my_past": "My past",
+        "way_of_seeing": "The way I see things",
+        "my_silences": "My silences"
+      }
+    }
+  },
+  "analysis": {
+    "thanks": "Thank you {{firstName}}, I have everything I need!",
+    "thanksNoName": "Thank you, I have everything I need!"
+  },
+  "reveal": {
+    "title": "{{firstName}}, to sum up,\nhere's what I understood.",
+    "titleNoName": "To sum up, here's\nwhat I understood.",
+    "line1": "Right now, {{concern}} is what's been on your mind, and your energy is {{energy}}.",
+    "line1NoEnergy": "Right now, {{concern}} is what's been on your mind the most.",
+    "line1Calm": "Right now, {{nothing}} weighs too heavily on your mind, and your energy is {{energy}}.",
+    "line2": "You'd like to {{goal}}.",
+    "line2Two": "You'd like to {{goal1}} and {{goal2}}.",
+    "line3": "That's a really good start!",
+    "concerns": {
+      "stress": "your stress levels",
+      "sleep": "your sleep",
+      "future": "your future",
+      "relationships": "your relationships",
+      "loneliness": "loneliness",
+      "self_confidence": "your self-confidence",
+      "work_studies": "your work or studies",
+      "health": "your health",
+      "finances": "your finances"
+    },
+    "energy": {
+      "bursting": "overflowing",
+      "in_shape": "in good shape",
+      "average": "average",
+      "bit_tired": "a little low",
+      "rock_bottom": "running on empty"
+    },
+    "goals": {
+      "manage_stress": "manage your stress",
+      "sleep_better": "sleep better",
+      "understand_emotions": "understand your emotions",
+      "feel_less_alone": "feel less alone",
+      "build_confidence": "build your confidence",
+      "see_clearly": "see things more clearly",
+      "someone_to_talk": "have someone to talk to",
+      "just_talk": "just talk"
+    },
+    "nothing": "nothing"
+  },
+  "meet": {
+    "title": "Wait, we haven't\nactually met yet?",
+    "hint": "Slide to meet Lucy",
+    "suggestion1": "honestly no idea… you start?",
+    "suggestion2": "about what's been on my mind lately",
+    "suggestion3": "so you really remember everything?"
+  },
+  "trial": {
+    "title": "Here's how it works.",
+    "today": "Today",
+    "todayBody": "Talk to me as much as you want, and I'll remember everything that matters.",
+    "day5": "Day 5",
+    "day5Body": "I'll send you a reminder: your trial ends soon. Cancel in a second.",
+    "day7": "Day 7",
+    "day7Body": "Your subscription starts.",
+    "promise": "I'll remind you before it ends, promise.",
+    "cta": "Turn on the reminder",
+    "later": "Later"
+  },
+  "paywall": {
+    "title": "Try Lucy Premium",
+    "subtitle": "{{firstName}}, your AI friend is always there for you.",
+    "subtitleNoName": "Your AI friend, always there for you.",
+    "feature1": "Unlimited chats with Lucy, 24/7",
+    "feature2": "She remembers what matters to you",
+    "feature3": "Daily mood tracking & insights",
+    "yearly": "YEARLY",
+    "monthly": "MONTHLY",
+    "badge": "SAVE {{percent}}%",
+    "perMonth": "only {{price}}/mo",
+    "perMonthSuffix": "/month",
+    "perYearSuffix": "/year",
+    "cta": "Claim my {{days}}-day free trial",
+    "ctaNoTrial": "Get Lucy Premium",
+    "trustBadge": "No payment today · __Cancel anytime__",
+    "trustBadgeReminder": "Reminder before you're charged · __Cancel anytime__",
+    "trustBadgeNoTrial": "__Cancel anytime__ · in seconds",
+    "restore": "Restore purchases",
+    "retry": "Try again",
+    "purchaseError": "The purchase could not be completed. Please try again.",
+    "purchasePending": "Your purchase is being processed. It needs to be approved before it can complete — access opens as soon as the App Store confirms it.",
+    "purchaseAlreadyOwned": "This {{store}} account already has a Lucy Premium subscription, but we couldn't restore it. Tap \"Restore purchases\" below.",
+    "errorCode": "Error code: {{code}}",
+    "offeringsUnavailable": "We can't reach the App Store right now. Check your connection and try again in a moment.",
+    "offeringsUnavailableShort": "Prices unavailable right now.",
+    "restoreNone": "No previous purchase found for this account.",
+    "restoreError": "Restore failed. Please try again.",
+    "completionFailed": "Your subscription is active — we just couldn't finish setting up your account. Tap \"Restore purchases\" to complete it.",
+    "renewalNotice": "Auto-renewing subscription. See Terms.",
+    "renewalNoticePrice": "Then {{price}}, auto-renewing. See Terms.",
+    "renewalNoticePriceNoTrial": "{{price}}, auto-renewing. See Terms.",
+    "disclaimer": "Lucy is an AI friend, not a therapist or a medical device.",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "manageAccount": "Manage my account"
+  },
+  "gift": {
+    "line1": "{{firstName}}, I'd love for us to talk like this every day.",
+    "line2": "So your first week is __on me__.",
+    "cta": "Thanks, Lucy!",
+    "line1NoName": "I'd love for us to talk like this every day."
+  },
+  "account": {
+    "title": "Your conversations are safe",
+    "subtitle": "Your subscription has ended.",
+    "daysTogether_one": "{{count}} day together",
+    "daysTogether_other": "{{count}} days together",
+    "resubscribe": "Come back to Lucy",
+    "restore": "Restore purchases",
+    "signOut": "Sign out",
+    "deleteAccount": "Delete my account",
+    "close": "Close",
+    "wallTitle": "Your account",
+    "wallSubtitle": "Your 5 free exchanges are used up.",
+    "billingTitle": "A payment issue",
+    "billingSubtitle": "Your last payment didn’t go through.",
+    "billingCta": "Update my payment",
+    "wallBubble1": "I'm still here, {{firstName}}.",
+    "wallBubble1NoName": "I'm still here.",
+    "wallBubble2": "And I remember everything we've talked about.",
+    "wallBubble3": "If you want to pick things back up, your first {{days}} days are still on me: you won't be charged until they're over, and you can cancel in a second.",
+    "wallBubble3NoTrial": "If you want to pick things back up, you can cancel anytime, in a second.",
+    "lapsedBubble": "I haven't forgotten anything, {{firstName}}. Come back whenever you like, everything's right where you left it.",
+    "lapsedBubbleNoName": "I haven't forgotten anything. Come back whenever you like, everything's right where you left it.",
+    "billingBubble1": "Nothing's lost, {{firstName}}.",
+    "billingBubble1NoName": "Nothing's lost.",
+    "billingBubble2": "Just update your payment method with {{store}}, and you'll get access back automatically.",
+    "trust": "{{days}} days free · __Cancel anytime__",
+    "trustReminder": "{{days}} days free · __Reminder before it ends__"
+  }
+}

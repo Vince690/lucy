@@ -1,0 +1,71 @@
+<!--
+  Template Supabase : « Confirm signup ».
+  À coller dans Dashboard Supabase → Authentication → Emails → Confirm signup.
+
+  Contraintes des clients mail (Gmail, Mail iOS, Outlook) :
+    - mise en page en <table>, pas en flex/grid
+    - styles en attribut `style=` : les <style> en <head> sont retirés par Gmail
+    - pas d'image distante : Mail iOS bloque le chargement par défaut, le logo
+      serait un rectangle vide. La pastille orange est donc dessinée en CSS.
+
+  {{ .ConfirmationURL }} est remplacée par Supabase. Sa destination est réglée
+  par Site URL / Redirect URLs (Authentication → URL Configuration), PAS ici.
+
+  Anglais seul (décision du 7 août) : Supabase n'a qu'un template par type et
+  ne connaît pas la langue de l'utilisateur à l'envoi. L'App Store vise en-US,
+  et le texte reste assez simple pour être compris par un lecteur français.
+-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FFF7ED;margin:0;padding:32px 12px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <tr>
+    <td align="center">
+
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:520px;background-color:#FFFFFF;border-radius:20px;overflow:hidden;">
+        <tr>
+          <td style="padding:44px 40px 36px 40px;">
+
+            <!-- Pastille de marque -->
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 28px 0;">
+              <tr>
+                <td width="44" height="44" align="center" valign="middle" style="width:44px;height:44px;background-color:#F97316;border-radius:14px;color:#FFFFFF;font-size:20px;font-weight:700;line-height:44px;">L</td>
+              </tr>
+            </table>
+
+            <h1 style="margin:0 0 14px 0;font-size:25px;line-height:32px;font-weight:700;color:#111827;letter-spacing:-0.4px;">
+              One tap and Lucy is yours
+            </h1>
+
+            <p style="margin:0 0 32px 0;font-size:16px;line-height:25px;color:#4B5563;">
+              Confirm your email address to finish setting up your account. Lucy is waiting on the other side.
+            </p>
+
+            <!-- Bouton principal -->
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 28px 0;">
+              <tr>
+                <td align="center" style="background-color:#F97316;border-radius:14px;">
+                  <a href="{{ .ConfirmationURL }}"
+                     style="display:inline-block;padding:16px 34px;font-size:16px;font-weight:600;color:#FFFFFF;text-decoration:none;letter-spacing:-0.2px;">
+                    Confirm my email
+                  </a>
+                </td>
+              </tr>
+            </table>
+
+            <p style="margin:0 0 8px 0;font-size:13px;line-height:20px;color:#9CA3AF;">
+              If the button doesn't work, copy this link into your browser:
+            </p>
+            <p style="margin:0;font-size:13px;line-height:20px;word-break:break-all;">
+              <a href="{{ .ConfirmationURL }}" style="color:#EA580C;text-decoration:underline;">{{ .ConfirmationURL }}</a>
+            </p>
+
+          </td>
+        </tr>
+      </table>
+
+      <p style="margin:24px 0 0 0;max-width:520px;font-size:12px;line-height:19px;color:#9CA3AF;text-align:center;">
+        You received this email because an account was created with this address on Lucy.<br />
+        If it wasn't you, simply ignore this message — no account will be activated.
+      </p>
+
+    </td>
+  </tr>
+</table>

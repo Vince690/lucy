@@ -1,0 +1,351 @@
+{
+  "step": "Étape {{current}} sur {{total}}",
+  "continue": "Continuer",
+  "intro": {
+    "hook": "Quand quelqu'un vous écoute vraiment, sans vous juger… ça fait un bien immense.",
+    "hookAuthor": "Carl Rogers",
+    "signIn": "Se connecter",
+    "promiseTitle": "Et si tu avais toujours quelqu'un à qui parler ?",
+    "promise2Line1": "Elle t'écoute,",
+    "promise2Line2": "retient ce qui compte pour toi,",
+    "promise2Line3": "et t'aide à y voir plus clair.",
+    "science": {
+      "title": "Ce que dit la recherche",
+      "fact1": "Parler à une IA bienveillante aide à se sentir mieux.",
+      "fact2": "Se sentir écouté est le plus fort prédicteur d'une vie heureuse.",
+      "fact3": "Avec une IA, on ose se livrer davantage : la peur du jugement s'efface.",
+      "source1": "Dartmouth College",
+      "source2": "Harvard University",
+      "source3": "University of Southern California"
+    },
+    "promise2Line0": "Rencontre Lucy."
+  },
+  "skip": "Passer",
+  "complete": "Terminer",
+  "completing": "Finalisation...",
+  "errorGeneric": "Une erreur est survenue, merci de réessayer.",
+  "traits": {
+    "title": "Comment te décrirais-tu ?",
+    "subtitle": "Choisis 3 traits qui te ressemblent le plus.",
+    "selectCount": "{{count}}/3",
+    "keys": {
+      "anxious": "Anxieux",
+      "joyful": "Joyeux",
+      "hypersensitive": "Hypersensible",
+      "confident": "Confiant",
+      "insecure": "Insécurisé",
+      "ambitious": "Ambitieux",
+      "optimistic": "Optimiste",
+      "introverted": "Introverti",
+      "extroverted": "Extraverti",
+      "calm": "Calme",
+      "anxious_female": "Anxieuse",
+      "joyful_female": "Joyeuse",
+      "confident_female": "Confiante",
+      "insecure_female": "Insécurisée",
+      "ambitious_female": "Ambitieuse",
+      "introverted_female": "Introvertie",
+      "extroverted_female": "Extravertie"
+    }
+  },
+  "name": {
+    "title": "Comment veux-tu qu'on t'appelle ?",
+    "firstName": "Prénom",
+    "firstNamePlaceholder": "Ton prénom"
+  },
+  "dateOfBirth": {
+    "title": "Quel âge as-tu ?",
+    "gate": {
+      "title": "On se retrouve un peu plus tard.",
+      "body": "Lucy est réservée aux 18 ans et plus. Prends soin de toi en attendant.",
+      "edit": "Modifier ma date de naissance"
+    }
+  },
+  "gender": {
+    "title": "Comment t'identifies-tu ?",
+    "options": {
+      "male": "Homme",
+      "female": "Femme",
+      "other": "Autre",
+      "prefer_not_to_say": "Je préfère ne pas dire"
+    }
+  },
+  "timezone": {
+    "title": "Confirmez votre fuseau horaire",
+    "subtitle": "Cela nous aide à vous envoyer des rappels au bon moment",
+    "detectedTimezone": "Fuseau horaire détecté"
+  },
+  "notifications": {
+    "title": "Reste sur la bonne voie",
+    "subtitle": "Active les notifications pour suivre ton humeur au quotidien.",
+    "enableNotifications": "Activer les notifications",
+    "enableNotificationsDesc": "Reçois un rappel doux, jamais envahissant.",
+    "dailyReminder": "Rappel quotidien",
+    "dailyReminderDesc": "Recevez un rappel quotidien à l'heure de votre choix",
+    "weeklySummary": "Résumé hebdomadaire",
+    "weeklySummaryDesc": "Recevez un résumé hebdomadaire de votre humeur"
+  },
+  "start": {
+    "title": "C'est parti ?",
+    "cta": "Oui"
+  },
+  "quiz": {
+    "mood": {
+      "title": "Comment te sens-tu, ces temps-ci ?",
+      "options": {
+        "thriving": "Très épanoui",
+        "pretty_good": "Plutôt bien",
+        "mixed": "Mitigé",
+        "not_great": "Pas bien",
+        "struggling": "En difficulté",
+        "thriving_female": "Très épanouie",
+        "mixed_female": "Mitigée"
+      }
+    },
+    "energy": {
+      "title": "Et ton niveau d'énergie en ce moment ?",
+      "options": {
+        "bursting": "Je déborde",
+        "in_shape": "En forme",
+        "average": "Moyen",
+        "bit_tired": "Un peu fatigué",
+        "rock_bottom": "Au plus bas",
+        "bit_tired_female": "Un peu fatiguée"
+      }
+    },
+    "concerns": {
+      "title": "Qu'est-ce qui occupe le plus ton esprit en ce moment ?",
+      "hint": "Tu peux en choisir plusieurs.",
+      "options": {
+        "stress": "Mon niveau de stress",
+        "sleep": "Mon sommeil",
+        "future": "Mon avenir",
+        "relationships": "Mes relations",
+        "loneliness": "Ma solitude",
+        "self_confidence": "Ma confiance en moi",
+        "work_studies": "Mon travail ou mes études",
+        "health": "Ma santé",
+        "finances": "Mes finances",
+        "nothing_special": "Rien de spécial"
+      }
+    },
+    "stress": {
+      "title": "En général, à quel point le stress t'affecte-t-il ?",
+      "options": {
+        "enormously": "Énormément",
+        "quite_a_bit": "Pas mal",
+        "okay": "Ça va",
+        "not_much": "Pas trop",
+        "not_at_all": "Pas du tout"
+      }
+    },
+    "talkTo": {
+      "title": "À qui tu peux parler quand quelque chose t'embête ?",
+      "options": {
+        "almost_anyone": "Quasi tout le monde",
+        "a_few_people": "Quelques personnes",
+        "my_partner": "Mon partenaire",
+        "my_family": "Ma famille",
+        "an_ai": "Une IA",
+        "hardly_anyone": "Pas grand monde",
+        "keep_to_myself": "Je préfère ne pas en parler"
+      }
+    },
+    "openness": {
+      "title": "C'est facile pour toi de te confier à quelqu'un ?",
+      "options": {
+        "almost_too_easy": "Presque trop facile",
+        "easy": "Facile",
+        "right_people": "Avec les bonnes personnes",
+        "not_that_simple": "Pas si simple",
+        "very_hard": "Très difficile"
+      }
+    },
+    "goals": {
+      "title": "Qu'est-ce que tu aimerais faire en venant parler avec Lucy ?",
+      "hint": "Plusieurs choix possibles.",
+      "options": {
+        "manage_stress": "Mieux gérer mon stress",
+        "sleep_better": "Mieux dormir",
+        "understand_emotions": "Comprendre mes émotions",
+        "feel_less_alone": "Me sentir moins seul",
+        "build_confidence": "Prendre confiance en moi",
+        "see_clearly": "Y voir plus clair",
+        "someone_to_talk": "Avoir quelqu'un à qui parler",
+        "just_talk": "Simplement discuter",
+        "feel_less_alone_female": "Me sentir moins seule"
+      }
+    },
+    "pride": {
+      "title": "De quoi es-tu le plus fier chez toi ?",
+      "hint": "Tu peux en choisir plusieurs.",
+      "options": {
+        "my_journey": "Mon parcours",
+        "my_family": "Ma famille",
+        "work_studies": "Mon travail ou mes études",
+        "kindness": "Ma gentillesse",
+        "creativity": "Ma créativité",
+        "independence": "Mon indépendance",
+        "overcoming_hardship": "Avoir surmonté des épreuves",
+        "friendships": "Mes amitiés",
+        "perseverance": "Ma persévérance",
+        "honesty": "Mon honnêteté",
+        "humor": "Mon humour",
+        "curiosity": "Ma curiosité",
+        "caring_for_others": "Prendre soin des autres",
+        "personal_growth": "Mes progrès personnels",
+        "courage": "Mon courage"
+      },
+      "title_female": "De quoi es-tu la plus fière chez toi ?"
+    },
+    "understood": {
+      "title": "Qu'aimerais-tu que les gens comprennent mieux sur toi ?",
+      "hint": "Tu peux en choisir plusieurs.",
+      "options": {
+        "my_sensitivity": "Ma sensibilité",
+        "need_for_calm": "Mon besoin de calme",
+        "my_emotions": "Mes émotions",
+        "life_choices": "Mes choix de vie",
+        "need_for_independence": "Mon besoin d'indépendance",
+        "my_past": "Mon passé",
+        "way_of_seeing": "Ma façon de voir les choses",
+        "my_silences": "Mes silences"
+      }
+    }
+  },
+  "analysis": {
+    "thanks": "Merci {{firstName}}, j'ai tout ce dont j'avais besoin !",
+    "thanksNoName": "Merci, j'ai tout ce dont j'avais besoin !"
+  },
+  "reveal": {
+    "title": "{{firstName}}, en résumé,\nvoici ce que j'ai compris.",
+    "titleNoName": "En résumé, voici\nce que j'ai compris.",
+    "line1": "En ce moment, c'est {{concern}} qui occupe ton esprit, et ton énergie est {{energy}}.",
+    "line1NoEnergy": "En ce moment, c'est {{concern}} qui occupe le plus ton esprit.",
+    "line1Calm": "En ce moment, {{nothing}} ne pèse trop sur ton esprit, et ton énergie est {{energy}}.",
+    "line2": "Tu aimerais {{goal}}.",
+    "line2Two": "Tu aimerais {{goal1}} et {{goal2}}.",
+    "line3": "C'est un très bon début !",
+    "concerns": {
+      "stress": "ton niveau de stress",
+      "sleep": "ton sommeil",
+      "future": "ton avenir",
+      "relationships": "tes relations",
+      "loneliness": "la solitude",
+      "self_confidence": "ta confiance en toi",
+      "work_studies": "ton travail ou tes études",
+      "health": "ta santé",
+      "finances": "tes finances"
+    },
+    "energy": {
+      "bursting": "débordante",
+      "in_shape": "bien là",
+      "average": "moyenne",
+      "bit_tired": "un peu basse",
+      "rock_bottom": "au plus bas"
+    },
+    "goals": {
+      "manage_stress": "mieux gérer ton stress",
+      "sleep_better": "mieux dormir",
+      "understand_emotions": "comprendre tes émotions",
+      "feel_less_alone": "te sentir moins seul",
+      "build_confidence": "prendre confiance en toi",
+      "see_clearly": "y voir plus clair",
+      "someone_to_talk": "avoir quelqu'un à qui parler",
+      "just_talk": "simplement discuter",
+      "feel_less_alone_female": "te sentir moins seule"
+    },
+    "nothing": "rien"
+  },
+  "meet": {
+    "title": "Mais au fait, on n'a pas\nencore fait connaissance ?",
+    "hint": "Glisse pour rencontrer Lucy",
+    "suggestion1": "j'sais pas trop… tu commences ?",
+    "suggestion2": "de ce qui me trotte dans la tête en ce moment",
+    "suggestion3": "alors comme ça tu te souviens de tout ?"
+  },
+  "trial": {
+    "title": "Voici comment ça se passe.",
+    "today": "Aujourd'hui",
+    "todayBody": "Parle-moi autant que tu veux, et moi je retiens tout ce qui compte.",
+    "day5": "Jour 5",
+    "day5Body": "Je t'envoie un rappel : ton essai se termine bientôt. Annule en une seconde.",
+    "day7": "Jour 7",
+    "day7Body": "Ton abonnement démarre.",
+    "promise": "Je te préviens avant la fin, promis.",
+    "cta": "Activer le rappel",
+    "later": "Plus tard"
+  },
+  "paywall": {
+    "title": "Essaie Lucy Premium",
+    "subtitle": "{{firstName}}, ton amie IA est toujours là pour toi.",
+    "subtitleNoName": "Ton amie IA, toujours là pour toi.",
+    "feature1": "Discute avec Lucy 24h/24, en illimité",
+    "feature2": "Elle retient tout ce qui compte pour toi",
+    "feature3": "Ton humeur analysée jour après jour",
+    "yearly": "ANNUEL",
+    "monthly": "MENSUEL",
+    "badge": "ÉCONOMISE {{percent}} %",
+    "perMonth": "soit {{price}}/mois",
+    "perMonthSuffix": "/mois",
+    "perYearSuffix": "/an",
+    "cta": "J'active mes {{days}} jours offerts",
+    "ctaNoTrial": "Je passe à Lucy Premium",
+    "trustBadge": "Pas débité aujourd'hui · __Annule quand tu veux__",
+    "trustBadgeReminder": "Rappel avant paiement · __Annule quand tu veux__",
+    "trustBadgeNoTrial": "__Annulable à tout moment__ · en quelques secondes",
+    "restore": "Restaurer mes achats",
+    "retry": "Réessayer",
+    "purchaseError": "L'achat n'a pas pu aboutir. Réessaie dans un instant.",
+    "purchasePending": "Ton achat est en cours de traitement. Il doit être validé avant d'aboutir — l'accès s'ouvrira dès que l'App Store l'aura confirmé.",
+    "purchaseAlreadyOwned": "Ce compte {{store}} possède déjà un abonnement Lucy Premium, mais nous n'avons pas pu le restaurer. Touche « Restaurer mes achats » ci-dessous.",
+    "errorCode": "Code d'erreur : {{code}}",
+    "offeringsUnavailable": "Impossible de joindre l'App Store pour le moment. Vérifie ta connexion et réessaie dans un instant.",
+    "offeringsUnavailableShort": "Tarifs indisponibles pour le moment.",
+    "restoreNone": "Aucun achat à restaurer pour ce compte.",
+    "restoreError": "La restauration a échoué. Réessaie dans un instant.",
+    "completionFailed": "Ton abonnement est bien actif — c'est la finalisation de ton compte qui n'a pas abouti. Appuie sur « Restaurer mes achats » pour terminer.",
+    "renewalNotice": "Reconduction automatique. Voir conditions.",
+    "renewalNoticePrice": "Puis {{price}}, reconduction automatique. Voir conditions.",
+    "renewalNoticePriceNoTrial": "{{price}}, reconduction automatique. Voir conditions.",
+    "disclaimer": "Lucy est une IA, pas un thérapeute ni un dispositif médical.",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "manageAccount": "Gérer mon compte"
+  },
+  "gift": {
+    "line1": "{{firstName}}, j'aimerais qu'on se parle comme ça tous les jours.",
+    "line2": "Alors ta première semaine, c'est moi qui te l'__offre__.",
+    "cta": "Merci Lucy !",
+    "line1NoName": "J'aimerais qu'on se parle comme ça tous les jours."
+  },
+  "account": {
+    "title": "Tes conversations sont intactes",
+    "subtitle": "Ton abonnement est terminé.",
+    "daysTogether_one": "{{count}} jour passé ensemble",
+    "daysTogether_other": "{{count}} jours passés ensemble",
+    "resubscribe": "Retrouver Lucy",
+    "restore": "Restaurer mes achats",
+    "signOut": "Se déconnecter",
+    "deleteAccount": "Supprimer mon compte",
+    "close": "Fermer",
+    "daysTogether_many": "{{count}} jours passés ensemble",
+    "wallTitle": "Ton compte",
+    "wallSubtitle": "Tes 5 échanges offerts sont passés.",
+    "billingTitle": "Un souci de paiement",
+    "billingSubtitle": "Ton dernier paiement n’est pas passé.",
+    "billingCta": "Mettre à jour mon paiement",
+    "wallBubble1": "Je suis toujours là, {{firstName}}.",
+    "wallBubble1NoName": "Je suis toujours là.",
+    "wallBubble2": "Et je me souviens de tout ce qu'on s'est dit.",
+    "wallBubble3": "Si tu veux reprendre, les {{days}} premiers jours sont toujours offerts : rien n'est débité avant la fin, et tu annules en une seconde.",
+    "wallBubble3NoTrial": "Si tu veux reprendre, tu peux arrêter quand tu veux, en une seconde.",
+    "lapsedBubble": "Je n'ai rien oublié, {{firstName}}. Reviens quand tu veux, tout est resté à sa place.",
+    "lapsedBubbleNoName": "Je n'ai rien oublié. Reviens quand tu veux, tout est resté à sa place.",
+    "billingBubble1": "Rien n'est perdu, {{firstName}}.",
+    "billingBubble1NoName": "Rien n'est perdu.",
+    "billingBubble2": "Il te suffit de mettre à jour ton moyen de paiement chez {{store}}, et l'accès revient tout seul.",
+    "trust": "{{days}} jours offerts · __Annule quand tu veux__",
+    "trustReminder": "{{days}} jours offerts · __Rappel avant la fin__"
+  }
+}

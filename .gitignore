@@ -1,0 +1,65 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macos
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# EAS / comptes de service (clés JSON à ne jamais commiter)
+google-service-account.json
+*service-account*.json
+
+# typescript
+*.tsbuildinfo
+
+# supabase CLI (cache / config locale)
+supabase/.temp/
+
+# Claude Code : réglages propres à la machine (les skills du projet restent versionnés)
+.claude/settings.local.json
+
+# Identifiants et notes locales (jamais dans le dépôt)
+*.local.md
+
+# Paquets de compétences installés (Higgsfield, etc.) : outillage tiers, sans
+# rapport avec l'app, réinstallable — 108 fichiers qui noyaient le dépôt.
+# Les fichiers restent sur le disque, seul le suivi git est retiré.
+.agents/
+.claude/skills/
+
+# Stratégie commerciale : notes personnelles, sans utilité pour faire tourner
+# l'app. Le fichier reste sur le disque.
+.cursor/plans/strategie-marketing-*.md
+
+# Préparation de la soumission App Store : checklists, fiche produit, scripts de
+# génération des captures. Aucun code de l'app n'en dépend — vérifié — et ce sont
+# des documents de travail personnels. Ils restent sur le disque ; les retirer du
+# suivi évite d'avoir à trier à chaque commit.
+store-assets/
+LANCEMENT.md

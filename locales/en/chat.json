@@ -1,0 +1,60 @@
+{
+  "title": "Lucy",
+  "placeholder": "Type your message...",
+  "send": "Send",
+  "typing": "Typing...",
+  "welcomeSeq1": "hey {{name}}! 🌼",
+  "welcomeSeq1NoName": "hey! 🌼",
+  "welcomeSeq2": "first message. feels kinda special, ngl.",
+  "welcomeSeq3": "i think we're gonna click.",
+  "welcomeSeq4": "anyway, what's on your mind?",
+  "errorNetwork": "Can't reach Lucy. Check your connection and try again.",
+  "errorSession": "Your session has expired. Please sign in again.",
+  "errorRateLimit": "Slow down! Wait a few seconds before sending another message.",
+  "errorServer": "Lucy is briefly unavailable. Try again in a moment.",
+  "errorGeneric": "Something went wrong. Please try again.",
+  "retry": "Retry",
+  "loadMore": "Load previous messages",
+  "dateToday": "Today",
+  "dateYesterday": "Yesterday",
+  "copy": "Copy",
+  "copied": "Copied",
+  "moodCheckIn": {
+    "greetings": {
+      "morning": [
+        "you're back ☀️",
+        "hey you 🌼",
+        "hey 👋"
+      ],
+      "afternoon": [
+        "you're back 👋",
+        "hi there 🌤️",
+        "hey, how's the day going?"
+      ],
+      "evening": [
+        "you're back 🌙",
+        "hi there 🌙",
+        "hey, day winding down?"
+      ]
+    },
+    "questions": [
+      "by the way, how are you feeling today?",
+      "tell me, how do you feel today?",
+      "and you, how's it going today?"
+    ]
+  },
+  "moodSent": {
+    "1": "today is rough 😔",
+    "2": "today i'm not feeling great 😕",
+    "3": "today i feel so-so 😐",
+    "4": "today i feel good 😊",
+    "5": "today i'm on top 🤩"
+  },
+  "firstCards": {
+    "classic": "tell me something about you first",
+    "wacky": "if you were a vegetable, what would you be?",
+    "goal": "i want to {{goal}}. how would you go about it?",
+    "goalFallback": "i answered 13 questions. tell me what you remember."
+  },
+  "errorFreeExhausted": "Your free exchanges are used up. A subscription is needed to keep going."
+}
